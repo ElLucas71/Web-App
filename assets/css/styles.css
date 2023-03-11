@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    
+}
+
+#particles-js{
+    background-image: url(../images/background.jpg);
+    background-position: center;
+	background-size: cover;
+    filter: blur(0.9px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.header {
+    margin-top: 2%;
+    font-weight: bold;
+  }
+
+.header-right {
+    float: right;
+}
+
+.header a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+}
+
+.button {
+    margin-right: 50px;
+    background-color: #ff343e;
+    padding: 7px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.header input[type=text] {
+    border-radius: 40px;
+    padding: 7px 20px;
+    border-style: none;
+    width: 16%;
+    background: rgba(255, 255, 255, .05);
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.image {
+    top: 13%;
+    left: 50%;
+    position: absolute;
+    height: 570px;
+    pointer-events: none;
+}
+
+.header .logo {
+    position: absolute;
+    margin-left: 100px;
+
+}
+
+.title {
+    color: #ff343e;
+    margin-left: 130px;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.subtitle {
+    margin-left: 130px;
+    font-size: 50px;
+    max-width: 500px;
+}
+
+.description {
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 2%;
+    max-width: 490px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.button2 {
+    margin-left: 130px;
+    position: absolute;
+    margin-top: 2%;
+    background-color: #ff343e;
+    padding: 9px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.designs {
+    display: flex;
+    margin-top: 7%;
+    margin-left: 130px;
+    font-size: 15px;
+}
+
+.designs h1 {
+    margin-right: 150px;
+}
+
+.designs2 {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 130px;
+    font-size: 10px;
+
+}
+
+.designs2 h1 {
+    margin-right: 115px;
+}
