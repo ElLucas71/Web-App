@@ -35,6 +35,11 @@ body {
     text-decoration: none;
     margin-left: 30px;
     color: white;
+    transition: all .2s;
+}
+
+.header a:hover {
+    font-size: 15px;
 }
 
 .button {
@@ -43,8 +48,16 @@ body {
     padding: 7px 40px;
     border-radius: 20px;
     font-weight: bold;
+    transition: all .2s;
 }
 
+.button:hover {
+    background-color: #b72027;
+}
+
+.button2:hover {
+    background-color: #b72027;
+}
 .header input[type=text] {
     border-radius: 40px;
     padding: 7px 20px;
@@ -53,6 +66,7 @@ body {
     background: rgba(255, 255, 255, .05);
     font-weight: bold;
     margin-left: 10%;
+    color: white;
 }
 
 .image {
@@ -100,6 +114,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: white;
+    transition: all .2s;
 }
 
 .designs {
